@@ -1,0 +1,94 @@
+{
+  "info": {
+    "name": "Mflix API",
+    "_postman_id": "41336413-01d7277a-a463-41ec-842d-f576d36abb94",
+    "description": "Collection of all Mflix API endpoints",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. Count Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/count-movies"
+      }
+    },
+    {
+      "name": "2. Count Series",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/count-series"
+      }
+    },
+    {
+      "name": "3. Content Types",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/content-types"
+      }
+    },
+    {
+      "name": "4. List Genres",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/genres"
+      }
+    },
+    {
+      "name": "5. Movies Since 2015",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/movies-since-2015"
+      }
+    },
+    {
+      "name": "6. Awarded Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/awarded-movies"
+      }
+    },
+    {
+      "name": "7. French Awarded Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/french-awarded-movies"
+      }
+    },
+    {
+      "name": "8. Thriller Drama Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/thriller-drama"
+      }
+    },
+    {
+      "name": "9. Crime or Thriller Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/crime-thriller"
+      }
+    },
+    {
+      "name": "10. French and Italian Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/french-italian"
+      }
+    },
+    {
+      "name": "11. High Rated Movies",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/high-rated"
+      }
+    },
+    {
+      "name": "12. Movies with Four Actors",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:3000/api/movies/four-actors"
+      }
+    }
+  ]
+}

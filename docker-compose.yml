@@ -1,0 +1,28 @@
+#version: '3.8'
+
+services:
+  db:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27018:27017"
+    networks:
+      - ntwrk
+    volumes:
+      - mongo-data:/data/db
+      
+  app:
+    build: ./app
+    container_name: nodeapp
+    ports:
+      - "3000:3000"
+    networks:
+      - ntwrk
+    depends_on:
+      - db
+
+networks:
+  ntwrk:
+
+volumes:
+  mongo-data:
